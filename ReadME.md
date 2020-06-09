@@ -7,7 +7,7 @@
 - open terminal in rocket-app 
 - export DATABASE_URL=mysql://username:password@servernamelocalhost/databasename 
 -  echo DATABASE_URL=mysql://username:password@servernamelocalhost/databasename > .env
-- ROCKET_DATABASES="{ sql12346666 = { url = \"$DATABASE_URL\" } }"                 
+- ROCKET_DATABASES="{ databasename = { url = \"$DATABASE_URL\" } }"                 
 - cargo run
 
 ### Do not close rocket-app 
