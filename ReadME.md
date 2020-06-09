@@ -4,6 +4,7 @@
 
 > Download Project 
 ## Open project rocket-app 
+- open terminal in rocket-app 
 - export DATABASE_URL=mysql://username:password@servernamelocalhost/databasename 
 -  echo DATABASE_URL=mysql://username:password@servernamelocalhost/databasename > .env
 - ROCKET_DATABASES="{ sql12346666 = { url = \"$DATABASE_URL\" } }"                 
@@ -15,6 +16,7 @@
 
 ## Open project jquery for Rust
 - inside index.html jquery section replace localhost:8000 with you ngrok provided url
-- open terminal 
+- open terminal in jquery for Rust 
 - surge ./ your domain name
 - press enter See thge results .
+
