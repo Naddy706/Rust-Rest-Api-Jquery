@@ -4,7 +4,7 @@
 
 > Download Project 
 ## Open project rocket-app 
-> export DATABASE_URL=mysql://username:password@servernamelocalhost/databasename
+> export DATABASE_URL=mysql://username:password@servernamelocalhost/databasename \n
 >  echo DATABASE_URL=mysql://username:password@servernamelocalhost/databasename > .env
 > ROCKET_DATABASES="{ sql12346666 = { url = \"$DATABASE_URL\" } }"                 
 > cargo run
