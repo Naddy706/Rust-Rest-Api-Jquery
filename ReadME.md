@@ -12,11 +12,11 @@
 
 ### Do not close rocket-app 
 - run ./ngrok http 8000
-- get your url now lets go to the jquery for Rust open it in anoher window
+- get your url now lets go to the jquery for Rust open it in another window
 
 ## Open project jquery for Rust
 - inside index.html jquery section replace localhost:8000 with you ngrok provided url
 - open terminal in jquery for Rust 
 - surge ./ your domain name
-- press enter See thge results .
+- press enter See the results .
 
