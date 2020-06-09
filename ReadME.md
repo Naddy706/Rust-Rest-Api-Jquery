@@ -1,5 +1,7 @@
 # Rust rest APi 
 
+## GET And POST For RUST using Mysql Jquery Ajax
+
 > Download Project 
 ## Open project rocket-app 
 > export DATABASE_URL=mysql://username:password@servernamelocalhost/databasename
