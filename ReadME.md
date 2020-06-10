@@ -1,13 +1,14 @@
 # Rust rest APi 
 
 ## GET And POST For RUST using Mysql Jquery Ajax
-
+- cargo install diesel_cli --no-default-features --features mysql
 > Download Project 
 ## Open project rocket-app 
 - open terminal in rocket-app 
 - export DATABASE_URL=mysql://username:password@servernamelocalhost/databasename 
 -  echo DATABASE_URL=mysql://username:password@servernamelocalhost/databasename > .env
-- ROCKET_DATABASES="{ databasename = { url = \"$DATABASE_URL\" } }"                 
+- diesel migration run
+- ROCKET_DATABASES="{ databasename = { url = \"$DATABASE_URL\" } }"   
 - cargo run
 
 ### Do not close rocket-app 
